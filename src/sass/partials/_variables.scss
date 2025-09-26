@@ -1,0 +1,18 @@
+@function getColor($key) {
+  @return map-get($colors, $key);
+}
+
+$colors: (
+  'default-1': #212121,
+  'default-2': #ffffff,
+
+  'text-1': #ffffff,
+  'text-2': #212121,
+  'text-3': #545454,
+  'active': #ff6b01,
+  'underline': #ff001b,
+  'dark-bg': #333333,
+
+  'button-activebg': #ff6b08,
+  'footer-bg': #f7f7f7,
+);
